@@ -1,1 +1,74 @@
-/* Add Global styles here */
+body {
+  background-color: #ffe6f2; /* light pink */
+  font-family: "Poppins", "Segoe UI", Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px; /* space around the whole page, including left side */
+}
+
+/* Center main content and add some space */
+main,
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 28px; /* inner spacing inside the white card */
+  background-color: #ffffff; /* white card on pink background */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #d63384; /* darker pink */
+  text-align: center;
+  font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
+  letter-spacing: 0.03em;
+}
+
+/* Links */
+a {
+  color: #c2185b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Make images have slightly rounded edges */
+img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Buttons (if you have any) */
+button,
+input[type="button"],
+input[type="submit"] {
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: #f06292;
+}
+
+
+p, li {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+ul, ol {
+  padding-left: 1.4rem;
+}
