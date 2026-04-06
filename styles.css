@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe6f2; /* light pink */
+  background-color: #ffe6f2;
   font-family: "Poppins", "Segoe UI", Arial, Helvetica, sans-serif;
   color: #333;
   margin: 0;
@@ -11,15 +11,15 @@ main,
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 24px 28px; /* inner spacing inside the white card */
-  background-color: #ffffff; /* white card on pink background */
+  padding: 24px 28px; 
+  background-color: #ffffff; 
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-/* Headings */
+
 h1, h2, h3 {
-  color: #d63384; /* darker pink */
+  color: #d63384;
   text-align: center;
   font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
   letter-spacing: 0.03em;
@@ -28,7 +28,6 @@ h1, h2, h3 {
 
 a {
   color: #c2185b;
-  text-decoration: none;
 }
 
 a:hover {
@@ -41,7 +40,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 10px auto;
+  margin: 10px;
 }
 
 
