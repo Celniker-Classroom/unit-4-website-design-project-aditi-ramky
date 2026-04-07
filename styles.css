@@ -72,33 +72,33 @@ ul, ol {
   padding-left: 22px;
 }
 .navbar {
-  position: fixed;          /* stay at the top when scrolling */
+  position: fixed;         
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffc1e3;   /* light pink to match your theme */
+  background-color: #ffc1e3;   
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  z-index: 1000;            /* sit above other elements */
+  z-index: 1000;           
 }
 
 .navbar ul {
-  list-style-type: none;    /* remove bullets */
+  list-style-type: none;    
   margin: 0;
   padding: 0 24px;
   display: flex;
-  justify-content: center;  /* center the links */
+  justify-content: center; 
   align-items: center;
 }
 
 .navbar li {
-  margin: 0 18px;           /* space between buttons */
+  margin: 0 18px;          
 }
 
 .navbar a {
   display: block;
   padding: 14px 0;
-  text-decoration: none;    /* no underline */
-  color: #6a1b4d;           /* darker pink/purple for contrast */
+  text-decoration: none;    
+  color: #6a1b4d;         
   font-weight: 600;
   font-family: "Poppins", "Segoe UI", Arial, Helvetica, sans-serif;
   letter-spacing: 0.03em;
@@ -106,12 +106,12 @@ ul, ol {
 
 .navbar a:hover {
   color: #ffffff;
-  background-color: #f06292;  /* darker pink on hover */
-  padding: 14px 10px;         /* subtle expand */
+  background-color: #f06292;  
+  padding: 14px 10px;        
   border-radius: 16px;
 }
 
-/* So the navbar doesn't cover the top of the page content */
+/* So that the navbar doesn't cover the top of the page text */
 .welcome {
-  margin-top: 60px;  /* about the height of the navbar (50–60px) */
+  margin-top: 60px;  
 }
