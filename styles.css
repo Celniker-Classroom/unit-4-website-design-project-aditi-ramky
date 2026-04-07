@@ -71,3 +71,47 @@ p, li {
 ul, ol {
   padding-left: 22px;
 }
+.navbar {
+  position: fixed;          /* stay at the top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffc1e3;   /* light pink to match your theme */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 1000;            /* sit above other elements */
+}
+
+.navbar ul {
+  list-style-type: none;    /* remove bullets */
+  margin: 0;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;  /* center the links */
+  align-items: center;
+}
+
+.navbar li {
+  margin: 0 18px;           /* space between buttons */
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 0;
+  text-decoration: none;    /* no underline */
+  color: #6a1b4d;           /* darker pink/purple for contrast */
+  font-weight: 600;
+  font-family: "Poppins", "Segoe UI", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+  background-color: #f06292;  /* darker pink on hover */
+  padding: 14px 10px;         /* subtle expand */
+  border-radius: 16px;
+}
+
+/* So the navbar doesn't cover the top of the page content */
+.welcome {
+  margin-top: 60px;  /* about the height of the navbar (50–60px) */
+}
