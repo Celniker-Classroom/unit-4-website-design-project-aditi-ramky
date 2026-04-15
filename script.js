@@ -73,3 +73,14 @@ if (welcomeEl && beginnerEl) {
   // Start typing the first paragraph
   typeFirst();
 }
+document.addEventListener("DOMContentLoaded", function () {
+  const bakerLink = document.getElementById("favorite-baker-link");
+
+  if (bakerLink) {
+    bakerLink.addEventListener("click", function (event) {
+      event.preventDefault();
+      // JavaScript redirect
+      window.location.href = "https://sallysbakingaddiction.com/";
+    });
+  }
+});
