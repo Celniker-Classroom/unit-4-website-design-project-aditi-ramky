@@ -34,9 +34,8 @@ if (input) {
   });
 }
 
-// ==============================
 // Typewriter Effect (homepage)
-// ==============================
+
 
 const welcomeEl = document.getElementById("welcome-text");
 const beginnerEl = document.getElementById("beginner-text");
