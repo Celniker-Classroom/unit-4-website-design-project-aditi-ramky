@@ -6,7 +6,6 @@ body {
   padding: 20px; 
 }
 
-
 main,
 .container {
   max-width: 900px;
@@ -17,14 +16,12 @@ main,
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
-
 h1, h2, h3 {
   color: #d63384;
   text-align: center;
   font-family: "Playfair Display", "Georgia", "Times New Roman", serif;
   letter-spacing: 0.03em;
 }
-
 
 a {
   color: #c2185b;
@@ -34,16 +31,15 @@ a:hover {
   text-decoration: underline;
 }
 
-
 img {
   border-radius: 10px;
-  max-width: 100%;
+  max-width: 100%;   /* image fits inside the screen */
   height: auto;
   display: block;
   margin: 10px;
 }
 
-
+/* Buttons */
 button,
 input[type="button"],
 input[type="submit"] {
@@ -62,7 +58,7 @@ input[type="submit"]:hover {
   background-color: #f06292;
 }
 
-
+/* Text and lists */
 p, li {
   line-height: 1.6;
   font-size: 16px;
@@ -71,6 +67,8 @@ p, li {
 ul, ol {
   padding-left: 22px;
 }
+
+/* NAVBAR */
 .navbar {
   position: fixed;         
   top: 0;
@@ -110,7 +108,14 @@ ul, ol {
   border-radius: 16px;
 }
 
-/* So that the navbar doesn't cover the top of the page text */
+/* HOMEPAGE WELCOME SECTION- So that the navbar doesn't cover the top of the page text */
 .welcome {
-  margin-top: 60px;  
+  margin-top: 70px;   /* homepage content below navbar */
+  padding: 0 20px;     /* side padding so text doesn't touch the edges */
+}
+
+/* Make sure all main content on other pages also has space between the navbar */
+main,
+.container {
+  margin-top: 120px;   /* makes other pages below navbar too */
 }
