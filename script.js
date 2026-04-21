@@ -3,7 +3,6 @@ const addButton = document.getElementById("add-todo-button");
 const list = document.getElementById("todo-list");
 
 function addTask() {
-  // Only run if these elements exist (baking-steps page)
   if (!input || !list) return;
 
   const text = input.value.trim();
@@ -12,7 +11,7 @@ function addTask() {
   const li = document.createElement("li");
   li.textContent = text;
 
-  // Click to cross out / uncross
+  // Click to cross out and uncross
   li.addEventListener("click", () => {
     li.style.textDecoration =
       li.style.textDecoration === "line-through" ? "none" : "line-through";
@@ -23,7 +22,7 @@ function addTask() {
   input.focus();
 }
 
-// Hook up events only if elements exist (so other pages don't break)
+
 if (addButton) {
   addButton.addEventListener("click", addTask);
 }
@@ -40,7 +39,7 @@ if (input) {
 const welcomeEl = document.getElementById("welcome-text");
 const beginnerEl = document.getElementById("beginner-text");
 
-// Only run this on the homepage (where these elements exist)
+
 if (welcomeEl && beginnerEl) {
   const text1 =
     "Welcome to my vanilla cake baking guide! This website will teach you how to bake a simple and delicious vanilla cake from scratch. You will learn what ingredients you need, what tools to use, and the exact steps to follow.";

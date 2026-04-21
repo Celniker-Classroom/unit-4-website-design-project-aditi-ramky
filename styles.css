@@ -119,3 +119,11 @@ main,
 .container {
   margin-top: 120px;   /* makes other pages below navbar too */
 }
+
+
+.homepagecakes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
