@@ -33,7 +33,7 @@ a:hover {
 
 img {
   border-radius: 10px;
-  max-width: 100%;   /* image fits inside the screen */
+  max-width: 100%;  
   height: auto;
   display: block;
   margin: 10px;
@@ -108,16 +108,16 @@ ul, ol {
   border-radius: 16px;
 }
 
-/* HOMEPAGE WELCOME SECTION- So that the navbar doesn't cover the top of the page text */
+/* So that the navbar doesn't cover the top of the page text */
 .welcome {
   margin-top: 70px;   /* homepage content below navbar */
   padding: 0 20px;     /* side padding so text doesn't touch the edges */
 }
 
-/* Make sure all main content on other pages also has space between the navbar */
+
 main,
 .container {
-  margin-top: 120px;   /* makes other pages below navbar too */
+  margin-top: 120px;   /* make other pages below navbar */
 }
 
 
